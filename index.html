@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Un planeta, un futuro | Río 1992 y Agenda 21</title>
+<meta name="description" content="Cumbre de la Tierra de Río 1992, Declaración de Río y Agenda 21: guía educativa.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#cumbre">Saltar al contenido</a>
+<!-- NAVEGACIÓN FIJA -->
+<header class="nav" id="nav">
+  <a href="#inicio" class="logo">Río<span>92</span></a>
+  <button class="burger" id="burger" aria-label="Abrir menú" aria-expanded="false">☰</button>
+  <nav id="menu" aria-label="Principal">
+    <a href="#cumbre">Cumbre</a><a href="#declaracion">Declaración</a><a href="#agenda21">Agenda 21</a>
+    <a href="#problemas">Problemas</a><a href="#nicaragua">Nicaragua</a><a href="#acciones">Acciones</a><a href="#quiz">Quiz</a>
+  </nav>
+  <i class="progress" id="progress"></i>
+</header>
+
+<!-- A. HERO -->
+<section class="hero" id="inicio">
+  <div class="hero-bg" id="heroBg" role="img" aria-label="Vista aérea de un río serpenteando entre un bosque verde"></div>
+  <div class="hero-in">
+    <p class="kicker">Río de Janeiro · 1992</p>
+    <h1>Un planeta, un futuro</h1>
+    <p class="sub">La Cumbre de la Tierra y la Agenda 21 iniciaron la cooperación mundial para conciliar desarrollo, sociedad y medio ambiente.</p>
+    <a href="#cumbre" class="btn">Explorar contenido ↓</a>
+  </div>
+  <ul class="stats">
+    <li><b class="count" data-to="12">0</b><span>días de cumbre</span></li>
+    <li><b class="count" data-to="27">0</b><span>principios</span></li>
+    <li><b class="count" data-to="40">0</b><span>capítulos Agenda 21</span></li>
+    <li><b class="count" data-to="4">0</b><span>secciones</span></li>
+  </ul>
+</section>
+
+<main>
+<!-- B. CUMBRE -->
+<section id="cumbre" class="sec reveal">
+  <h2>Cumbre de Río de 1992</h2>
+  <p class="lead">Oficialmente, la <strong>Conferencia de las Naciones Unidas sobre el Medio Ambiente y el Desarrollo (CNUMAD)</strong>, conocida como Cumbre de la Tierra.</p>
+  <div class="two">
+    <figure class="ph"><img src="images/cumbre.jpg" loading="lazy" alt="Vista de la bahía de Río de Janeiro con el Pan de Azúcar al fondo"><figcaption>Río de Janeiro, Brasil, sede de la Cumbre.</figcaption></figure>
+    <div class="grid g1">
+      <div class="card"><h3>Fecha</h3><p>3 al 14 de junio de 1992.</p></div>
+      <div class="card"><h3>Lugar</h3><p>Río de Janeiro, Brasil.</p></div>
+      <div class="card"><h3>Participantes</h3><p>Delegaciones de más de 170 países, con jefes de Estado y de gobierno, y miles de representantes de ONG.</p></div>
+    </div>
+  </div>
+  <div class="two top">
+    <div><h3>Importancia histórica</h3><p>Consolidó el <em>desarrollo sostenible</em> (Informe Brundtland, 1987) como meta política global y fue la mayor conferencia ambiental de la ONU hasta entonces.</p>
+    <h3>Principales resultados</h3>
+    <ul class="check"><li>Declaración de Río (27 principios)</li><li>Agenda 21 (plan de acción)</li><li>Convenio sobre la Diversidad Biológica</li><li>Convención Marco sobre el Cambio Climático</li><li>Declaración de principios sobre los bosques (no vinculante)</li></ul></div>
+    <div><h3>Línea del tiempo</h3><ol class="timeline" id="timeline"></ol></div>
+  </div>
+  <p class="note"><strong>No los confundas:</strong> la <em>Cumbre</em> es el evento; la <em>Declaración</em> es un conjunto de principios; la <em>Agenda 21</em> es un plan de acción. Ni la Declaración ni la Agenda 21 son jurídicamente vinculantes.</p>
+</section>
+
+<!-- C. DECLARACIÓN -->
+<section id="declaracion" class="sec alt reveal">
+  <h2>Declaración de Río</h2>
+  <p class="lead">Veintisiete principios que orientan a los Estados hacia el desarrollo sostenible. Toca una tarjeta para leer su idea central.</p>
+  <div class="filters" role="group" aria-label="Filtrar principios">
+    <button class="on" data-f="top">Destacados</button><button data-f="all">Los 27 principios</button>
+  </div>
+  <div class="grid g4" id="principios"></div>
+</section>
+
+<!-- D. AGENDA 21 -->
+<section id="agenda21" class="sec reveal">
+  <h2>Agenda 21</h2>
+  <p class="lead">Programa de acción mundial, no vinculante, de <strong>40 capítulos</strong> para el desarrollo sostenible en el siglo XXI. El capítulo 1 es el preámbulo; los demás se agrupan en cuatro secciones.</p>
+  <div class="grid g4" id="agenda"></div>
+</section>
+
+<!-- E. PROBLEMAS -->
+<section id="problemas" class="sec alt reveal">
+  <h2>Problemas ambientales</h2>
+  <p class="lead">Elige un problema para ver sus causas y posibles soluciones.</p>
+  <div class="tabs" id="tabs" role="tablist"></div>
+  <div class="panel" id="panel" role="tabpanel"></div>
+</section>
+
+<!-- F. NICARAGUA -->
+<section id="nicaragua" class="sec reveal">
+  <h2>Aplicación en Nicaragua</h2>
+  <figure class="ph wide"><img src="images/nicaragua.jpg" loading="lazy" alt="Río entre selva tropical con neblina sobre las montañas"><figcaption>Los bosques y ríos tropicales son parte del patrimonio natural que protegen estas políticas.</figcaption></figure>
+  <div class="grid g3" id="nica"></div>
+  <p class="note">Nicaragua es parte del Convenio sobre la Diversidad Biológica y de la Convención Marco sobre el Cambio Climático. Verifica cifras y normativa vigente en MARENA antes de exponer.</p>
+</section>
+
+<!-- G. ACCIONES -->
+<section id="acciones" class="sec alt reveal">
+  <h2>¿Qué podemos hacer?</h2>
+  <div class="two">
+    <figure class="ph"><img src="images/plantacion.jpg" loading="lazy" alt="Manos sembrando una plántula en la tierra"><figcaption>Cada acción local suma al desarrollo sostenible.</figcaption></figure>
+    <div><h3>Individuales</h3><ul class="check" id="ind"></ul><h3>Comunitarias</h3><ul class="check" id="com"></ul></div>
+  </div>
+</section>
+
+<!-- Conclusión -->
+<section id="conclusion" class="concl reveal">
+  <h2>Conclusión</h2>
+  <p>Río 1992 no resolvió los problemas ambientales, pero estableció un lenguaje común: desarrollo y ambiente deben ir juntos, con responsabilidad compartida, participación de todos y atención a las generaciones futuras. Sus ideas inspiraron convenios posteriores y, en 2015, la Agenda 2030 con los Objetivos de Desarrollo Sostenible. El reto sigue siendo convertir los principios en acciones concretas.</p>
+  <a href="#quiz" class="btn">Pon a prueba lo aprendido</a>
+</section>
+
+<!-- H. QUIZ -->
+<section id="quiz" class="sec reveal">
+  <h2>Cuestionario interactivo</h2>
+  <div class="quiz" id="quizBox"></div>
+</section>
+</main>
+
+<!-- I. PIE -->
+<footer>
+  <p class="msg">“No heredamos la Tierra de nuestros antepasados, la tomamos prestada de nuestros hijos.”</p>
+  <h3>Fuentes</h3>
+  <ul>
+    <li>Naciones Unidas. <em>Conferencia de Río 1992 (CNUMAD)</em> — un.org/en/conferences/environment/rio1992</li>
+    <li>Naciones Unidas (1992). <em>Declaración de Río sobre el Medio Ambiente y el Desarrollo</em>, A/CONF.151/26 (Vol. I).</li>
+    <li>Naciones Unidas (1992). <em>Agenda 21</em>, A/CONF.151/26 (Vols. I–III) — un.org/spanish/esa/sustdev/documents/agenda21</li>
+    <li>CMMAD (1987). <em>Nuestro futuro común</em> (Informe Brundtland).</li>
+    <li>Nicaragua: Ley 217 (Ley General del Medio Ambiente y los Recursos Naturales), Ley 620 (Ley General de Aguas Nacionales) y MARENA.</li>
+  </ul>
+  <p class="small">Créditos: proyecto educativo universitario. Fotografías: archivos propios y de Unsplash (Davi Costa, Ivars Utināns, Red Zeppelin). Verifica datos en las fuentes originales.</p>
+</footer>
+<button id="toTop" class="top" aria-label="Volver al inicio">↑</button>
+<script src="main.js"></script>
+</body>
+</html>
